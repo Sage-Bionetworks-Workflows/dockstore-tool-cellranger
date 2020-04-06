@@ -1,5 +1,7 @@
 # dockstore-tool-cellranger
 
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/sagebionetworks/dockstore-tool-cellranger)
+
 Dockerized cellranger and CWL tool definition for Dockstore.
 
 This Docker image is not provided or supported by 10x Genomics.
