@@ -1,6 +1,6 @@
 # dockstore-tool-cellranger
 
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/sagebionetworks/dockstore-tool-cellranger)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/sagebionetworks/dockstore-tool-cellranger)](https://hub.docker.com/r/sagebionetworks/dockstore-tool-cellranger)
 
 Dockerized cellranger and CWL tool definition for Dockstore.
 
