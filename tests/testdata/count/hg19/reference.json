@@ -1,0 +1,17 @@
+{
+    "fasta_hash": "72efbc70c612bfcccf7ca00b43088b2f635f99a6", 
+    "genomes": [
+        "hg19"
+    ], 
+    "gtf_hash": "60de87d6aa742c9e17dce5ffe0e0325b5be2072b", 
+    "input_fasta_files": [
+        "small.fa"
+    ], 
+    "input_gtf_files": [
+        "small.gtf"
+    ], 
+    "mem_gb": 16, 
+    "mkref_version": "", 
+    "threads": 2, 
+    "version": null
+}

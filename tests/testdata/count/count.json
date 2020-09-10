@@ -1,0 +1,99 @@
+{
+    "sample_csv": {
+        "class": "File",
+        "path": "./SRR6334436.csv"
+    },
+    "Genome": {
+        "class": "File",
+        "path": "./hg19/star/Genome"
+    },
+    "SA": {
+        "class": "File",
+        "path": "./hg19/star/SA"
+    },
+    "SAindex": {
+        "class": "File",
+        "path": "./hg19/star/SAindex"
+    },
+    "analysis_flag": true,
+    "chemistry": null,
+    "chrLength": {
+        "class": "File",
+        "path": "./hg19/star/chrLength.txt"
+    },
+    "chrName": {
+        "class": "File",
+        "path": "./hg19/star/chrName.txt"
+    },
+    "chrNameLength": {
+        "class": "File",
+        "path": "./hg19/star/chrNameLength.txt"
+    },
+    "chrStart": {
+        "class": "File",
+        "path": "./hg19/star/chrStart.txt"
+    },
+    "exonGeTrInfo": {
+        "class": "File",
+        "path": "./hg19/star/exonGeTrInfo.tab"
+    },
+    "exonInfo": {
+        "class": "File",
+        "path": "./hg19/star/exonInfo.tab"
+    },
+    "fai": {
+        "class": "File",
+        "path": "./hg19/fasta/genome.fa.fai"
+    },
+    "fasta": {
+        "class": "File",
+        "path": "./hg19/fasta/genome.fa"
+    },
+    "fastq_dir": [
+        {
+            "class": "File",
+            "path": "./SRR6334436_S1_L001_R1_001.fastq.gz"
+        },
+        {
+            "class": "File",
+            "path": "./SRR6334436_S1_L001_R2_001.fastq.gz"
+        }
+    ],
+    "geneInfo": {
+        "class": "File",
+        "path": "./hg19/star/geneInfo.tab"
+    },
+    "genes": {
+        "class": "File",
+        "path": "./hg19/genes/genes.gtf"
+    },
+    "genomeParameters": {
+        "class": "File",
+        "path": "./hg19/star/genomeParameters.txt"
+    },
+    "pickle": {
+        "class": "File",
+        "path": "./hg19/pickle/genes.pickle"
+    },
+    "reference": {
+        "class": "File",
+        "path": "./hg19/reference.json"
+    },
+    "sample": "SRR6334436",
+    "sjdbInfo": {
+        "class": "File",
+        "path": "./hg19/star/sjdbInfo.txt"
+    },
+    "sjdbList": {
+        "class": "File",
+        "path": "./hg19/star/sjdbList.fromGTF.out.tab"
+    },
+    "sjdbListout": {
+        "class": "File",
+        "path": "./hg19/star/sjdbList.out.tab"
+    },
+    "transcriptInfo": {
+        "class": "File",
+        "path": "./hg19/star/transcriptInfo.tab"
+    }
+}
