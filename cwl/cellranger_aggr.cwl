@@ -29,7 +29,7 @@ arguments:
     valueFrom: $(inputs.sample_csv)
 requirements:
   - class: DockerRequirement
-    dockerPull: sagebionetworks/cellranger
+    dockerPull: sagebionetworks/dockstore-tool-cellranger
   - class: InlineJavascriptRequirement
   - class: InitialWorkDirRequirement
     listing:
