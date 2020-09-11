@@ -1,7 +1,51 @@
-- job: echo_hello_world.yaml
+- job: ./testdata/count/count.json
   output:
-    out: "hello, world!"
-  tool: ../cwl/echo.cwl
-  label: echo_hello_world_test
-  id: 0
-  doc: Placeholder test
+    molecule_h5:
+      basename: SRR6334436_molecule_info.h5
+      class: File
+      size: 2175523
+    summary_html:
+      basename: SRR6334436_web_summary.html
+      checksum: sha1$2e2573fc7f9124cd93ba060a0f904a1418355632
+      class: File
+      size: 2639901
+    metrics_csv:
+      basename: SRR6334436_metrics_summary.csv
+      checksum: sha1$28dfad588a10554dc0313d3bbe55cd46562b3ee3
+      class: File
+      size: 499
+    filtered_barcodes:
+      basename: SRR6334436_filtered_barcodes.tsv.gz
+      class: File
+      size: 33
+    filtered_features:
+      basename: SRR6334436_filtered_features.tsv.gz
+      class: File
+      size: 112
+    filtered_matrix:
+      basename: SRR6334436_filtered_matrix.mtx.gz
+      class: File
+      size: 139
+    filtered_hdf5:
+      basename: SRR6334436_filtered_feature_bc_matrix.h5
+      class: File
+      size: 16880
+    raw_barcodes:
+      basename: SRR6334436_raw_barcodes.tsv.gz
+      class: File
+      size: 2550196
+    raw_features:
+      basename: SRR6334436_raw_features.tsv.gz
+      class: File
+      size: 112
+    raw_matrix:
+      basename: SRR6334436_raw_matrix.mtx.gz
+      class: File
+      size: 144
+    raw_hdf5:
+      basename: SRR6334436_raw_feature_bc_matrix.h5
+      class: File
+      size: 13293208
+  tool: ../cwl/cellranger_count.cwl
+  doc: Test that cellranger count runs
+  short_name: cellranger count

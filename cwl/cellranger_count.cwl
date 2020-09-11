@@ -58,7 +58,7 @@ inputs:
       position: 6
       prefix: --nosecondary
 outputs:
-  - id: output
+  - id: molecule_h5
     type: File
     outputBinding:
       glob: '$(inputs.sample)_run/outs/molecule_info.h5'
