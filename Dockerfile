@@ -14,13 +14,13 @@ LABEL about.tags="scRNA"
 # install dependencies
 RUN apt-get update \
  && apt-get install -y \
-    binutils=2.30-21ubuntu1~18.04.2 \
+    binutils \
     clang-6.0 \
-    curl=7.58.0-2ubuntu3.8 \
+    curl \
     dpkg-dev=1.19.0.5ubuntu2.3 \
     g++=4:7.4.0-1ubuntu2.3 \
     gcc=4:7.4.0-1ubuntu2.3 \
-    git=1:2.17.1-1ubuntu0.5 \
+    git \
     golang-1.9 \
     libatlas-base-dev=3.10.3-5 \
     libbz2-dev=1.0.6-8.1ubuntu0.2 \
@@ -30,7 +30,7 @@ RUN apt-get update \
     libopenblas-dev=0.2.20+ds-4 \
     make=4.1-9.1ubuntu1 \
     python-numpy=1:1.13.3-2ubuntu1 \
-    python-pip=9.0.1-2.3~ubuntu1.18.04.1 \
+    python-pip \
     samtools=1.7-1 \
     wget=1.19.4-1ubuntu2.2 \
     zlib1g-dev=1:1.2.11.dfsg-0ubuntu2
