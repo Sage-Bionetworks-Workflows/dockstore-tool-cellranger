@@ -24,7 +24,7 @@ RUN apt-get update \
     golang-1.9 \
     libatlas-base-dev=3.10.3-5 \
     libbz2-dev=1.0.6-8.1ubuntu0.2 \
-    libc6-dev=2.27-3ubuntu1 \
+    libc6-dev \
     liblz4-tool=0.0~r131-2ubuntu3 \
     liblzma-dev=5.2.2-1.3 \
     libopenblas-dev=0.2.20+ds-4 \
