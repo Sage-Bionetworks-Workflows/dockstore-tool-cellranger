@@ -16,7 +16,7 @@
         "path": "./hg19/star/SAindex"
     },
     "analysis_flag": true,
-    "chemistry": null,
+    "chemistry": "threeprime",
     "chrLength": {
         "class": "File",
         "path": "./hg19/star/chrLength.txt"

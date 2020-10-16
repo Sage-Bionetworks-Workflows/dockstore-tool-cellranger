@@ -1,0 +1,12 @@
+{
+    "molecule_h5": [
+    {   "class": "File",
+        "path": "./SRR6334436_molecule_info.h5"
+    }
+    ],
+    "sample_csv": {
+        "class": "File",
+        "path": "./SRR6334436.csv"
+    },
+    "analysis_flag": True
+}
