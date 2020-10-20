@@ -181,7 +181,7 @@ arguments:
     valueFrom: $(inputs.sample)
 requirements:
   - class: DockerRequirement
-    dockerPull: sagebionetworks/dockstore-tool-cellranger
+    dockerPull: sagebionetworks/dockstore-tool-cellranger:004bf21e
   - class: InlineJavascriptRequirement
   - class: ResourceRequirement
   - class: InitialWorkDirRequirement
