@@ -49,7 +49,7 @@ jobs:
       - name: Test CWL
         id: test_cwl
         run: |
-          pipenv run cwltest --test tests/test-descriptions.yaml --tool cwl-runner
+          pipenv run cwltest --timeout 5000 --test tests/test-descriptions.yaml --tool cwl-runner
 
   build:
     if: "!contains(github.event.head_commit.message, '[skip-ci]')"
